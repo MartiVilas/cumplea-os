@@ -4,4 +4,4 @@ function abrirVentana() {
     window.open('https://www.youtube.com/watch?v=7V-qmzu6KVU&ab_channel=Pascal', '', opciones); 
 }
 const boton = document.getElementById("btn");
-boton.addEventListener("click", abrirVentana());
+boton.addEventListener("click", ()=>abrirVentana());
